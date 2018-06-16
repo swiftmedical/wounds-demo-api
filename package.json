@@ -1,0 +1,11 @@
+{
+  "name": "wounds-demo-api",
+  "version": "0.1.0",
+  "description": "Demo API for use with front end React interview projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
