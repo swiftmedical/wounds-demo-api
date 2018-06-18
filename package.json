@@ -4,8 +4,27 @@
   "description": "Demo API for use with front end React interview projects",
   "main": "index.js",
   "scripts": {
+    "start": "node ./node_modules/.bin/babel-node lib/index.js --watch",
     "test": "test"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "hapi": "^17.5.1",
+    "hapi-pagination": "^2.0.0",
+    "hapi-qs": "^2.0.1",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
+    "joi": "^13.4.0",
+    "json-api-normalizer": "^0.4.10",
+    "jsonapi-serializer": "^3.5.6",
+    "moment": "^2.22.2",
+    "vision": "^5.3.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
